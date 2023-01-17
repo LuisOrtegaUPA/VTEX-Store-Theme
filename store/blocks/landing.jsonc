@@ -1,0 +1,7 @@
+{
+    "store.custom#Landing": {
+        "blocks": [
+            "rich-text#Titulo" // Visualización: Dar de alta (admin VTEX)
+        ]
+    }
+}

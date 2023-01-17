@@ -1,0 +1,14 @@
+.infoCardHeadline{
+    font-weight: 300;
+}
+.infoCardHeadline--Right{
+    text-decoration: underline;
+}
+.infoCardCallActionContainer :global(.vtex-button){
+    border-radius: 2rem;
+    background-color: blue;
+    color: white;
+}
+/* :global(.vtex-button){
+    background-color: #ddd;
+} */

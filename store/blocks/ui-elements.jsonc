@@ -1,0 +1,88 @@
+{
+  "link#ButtonPrimary": {
+    "props": {
+      "href": "#",
+      "label": "Agregar a compra",
+      "target": "_self",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary"
+      },
+      "blockClass": "Main"
+    }
+  },
+  "link#ButtonSecondary": {
+    "props": {
+      "href": "#",
+      "label": "Agregar a compra",
+      "target": "_self",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "secondary"
+      },
+      "blockClass": "Middle"
+    }
+  },
+  "link#ButtonTertiary": {
+    "props": {
+      "href": "#",
+      "label": "Agregar a compra",
+      "target": "_self",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary"
+      },
+      "blockClass": "ShippingSimulator"
+    }
+  },
+  // Info Cards
+  "info-card#Left": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "Left",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#Right": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "Right",
+      "textAlignment": "center"
+    }
+  },
+  // Monster Banner (Estructura)
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/Group%207%20(1)%20(1)%20(1)%20(1)%20(1)___c6b3ed853fb16a08b265753b50e0c57a.png",
+          "description": "2"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  }
+}
